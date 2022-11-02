@@ -1,0 +1,20 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "functions-framework --target=app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "nodemailer": "^6.8.0",
+    "puppeteer": "^15.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
